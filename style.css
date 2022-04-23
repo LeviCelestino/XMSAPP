@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#color-back{
+    
+    background-color: #7D4698;
+    height: 650px;
+}
+header{
+    
+    color: white;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+#content-fluid{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#donate-btn{
+    color: black;
+    background-color: #FFBF00;
+    border-radius: 5px;
+    padding: 4px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+li{
+    margin-right: 20px;
+    list-style: none;
+}
+#container-nav{
+    color: white;
+    margin: auto;
+    max-width: 60%;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.larg-text-nav{
+    font-size: 60px;
+}
+.medium-text-nav{
+    font-size: 50px;
+}
+.small-text-nav{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.download-btn{
+
+  border-style: solid;
+  border-color: white;
+  display: inline;
+  border-radius: 4px;
+  padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 800px){
+    #container-nav{
+        color: white;
+        margin: auto;
+        margin-top: 100px;
+        max-width: 100%;
+        }
+    #color-back{
+            width: 100%;
+            background-color: #7D4698;
+            height: 650px;
+    }
+    li{
+           display: none;
+    }
+    .larg-text-nav{
+            font-size: 50px;
+    }
+    .medium-text-nav{
+        font-size: 40px;
+    }
+    .small-text-nav{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+}
